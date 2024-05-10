@@ -7,7 +7,7 @@
         public string Image { get; set; }
         public double Price { get; set; }
 
-        public PizzaModel(string name, string description, double price, string image = "https://www.creativefabrica.com/wp-content/uploads/2020/04/23/single-slice-italian-pizza-cartoon-flat-Graphics-3933838-1-1-580x387.jpg")
+        public PizzaModel(string name, string description, double price, string image = "/img/pizza-placeholder.png")
         {
             this.Name = name;
             this.Description = description;
